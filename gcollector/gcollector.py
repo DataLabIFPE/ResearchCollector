@@ -42,6 +42,6 @@ for gsc in gsces:
     ind+=1
 
 # 5 using the lib "json" to "dump" the dictionary to a json file
-with open('goolescholar.json','w') as json_file:
+with open('gcollector.json','w') as json_file:
     json.dump(all_productions, json_file, indent=4)
     

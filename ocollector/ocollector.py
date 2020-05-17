@@ -56,7 +56,7 @@ for work in works_list:
     year = (work.find(class_="info-detail").text)
     all_works.append({'title' : work1, 'journal' : journal_title, 'year' : year})
 
-with open('Orcid_works.json','w') as json_file:
+with open('Ocollector.json','w') as json_file:
     json.dump(all_works, json_file, indent=4)
 
 
